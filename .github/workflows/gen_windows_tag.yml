@@ -78,6 +78,7 @@ jobs:
           path: |
             WezTerm-*.zip
             WezTerm-*.exe
+          retention-days: 7
 
   upload:
     runs-on: ubuntu-latest

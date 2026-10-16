@@ -87,6 +87,7 @@ jobs:
         with:
           name: "fedora41"
           path: "wezterm-*.rpm"
+          retention-days: 7
 
   upload:
     runs-on: ubuntu-latest

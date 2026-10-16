@@ -108,3 +108,4 @@ jobs:
         with:
           name: "centos9"
           path: "wezterm-*.rpm"
+          retention-days: 7

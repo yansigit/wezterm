@@ -108,6 +108,7 @@ jobs:
             wezterm-*.xz
             *src.tar.gz
             *.AppImage
+          retention-days: 7
 
   upload:
     runs-on: ubuntu-latest

@@ -89,6 +89,7 @@ jobs:
         with:
           name: "macos"
           path: "WezTerm-*.zip"
+          retention-days: 7
 
   upload:
     runs-on: ubuntu-latest

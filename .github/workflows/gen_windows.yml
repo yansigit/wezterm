@@ -89,3 +89,4 @@ jobs:
           path: |
             WezTerm-*.zip
             WezTerm-*.exe
+          retention-days: 7
