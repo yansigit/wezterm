@@ -92,6 +92,7 @@ jobs:
           path: |
             wezterm-*.deb
             wezterm-*.xz
+          retention-days: 7
 
   upload:
     runs-on: ubuntu-latest
